@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>Add a book</h2>
+    <form (submit)="addBook()">
+        <div class="input-group mb-3">
+            <input name="bookForm" type="text" class="form-control" placeholder="Book title" [(ngModel)]="newBook">
+            <button class="btn btn-primary" type="submit">Add</button>
+        </div>
+    </form>
+</div>
